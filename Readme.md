@@ -1,5 +1,7 @@
 # Customer Journey Analytics Hands-on Workshop (February 2023)
 
+![Workshop Structure](imgs/CJA-workshop-backbone.png)
+
 
 ## Goal
 
