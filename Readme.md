@@ -29,17 +29,17 @@ Technical Seller, Consultants, Business Analysts, Data Analysts, Data Architects
 
 NOTE: If you're part of in-person workshop you can skip to section Create CJA Connection (previous steps have been setup for you).
 
-### Quick Setup with DSN (optional, if using own sandbox)
+### 1.1 Quick Setup with DSN (optional, if using own sandbox)
 * Go to https://dsn.adobe.com/quick-setup.
 * Select your environment, configuration and a preset. 
 * Provide title for your workspace and data collection libraries.
 * Check new schemas and datasets created in the sandbox.
 
-### Generate/Download Sample Data Files
+### 1.2.1 Generate/Download Sample Data Files
 * Download sample data here: [link]().
 * Open the files in text editor and review what data it contains.
 
-### Upload Sample Data to AEP Data Lake
+### 1.2.2 Upload Sample Data to AEP Data Lake
 * Go to https://experience.adobe.com/#/@aeppartner1/sname:prod/platform/dataset/browse to see your datasets.
 * Open the following datasets and drop the sample data (*.csv) to the Add Data section on the right-hand side panel:
 	* Demo System - Event Dataset for Website (Global v1.1)
@@ -47,11 +47,11 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 	* Demo System - Event Dataset for Call Center (Global v1.1)
 	* Demo System - Event Dataset for POS (Global v1.1)
 	
-### Validate Data Ingestion
+### 1.2.3 Validate Data Ingestion
 * Ingestion of this size of data can take between 30-60 mins.
 * Go to https://experience.adobe.com/#/@aeppartner1/sname:prod/platform/monitoring/batch and check all datasets have finished the ingestion of sample data.
 
-### Create CJA Connection
+### 1.3 Create CJA Connection
 * Open CJA UI from the top level navigation.
 * Open the Connections tab: https://experience.adobe.com/#/@aeppartner1/platform/analytics/#/connections2/manager.
 * Click Create new connection button.
@@ -61,10 +61,10 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 	* Specify PersonId (crmId), Timestamp (timestamp), Data Source Type (Web Data).
 	* Enable Import all new data and Backfill all existing data. 
 	* Repeat this process for the other datasets (using the same PersonId).
-*Review the setup and ingestion progress on Connection overview.
+* Review the setup and ingestion progress on Connection overview.
 * The ingestion to CJA Connection might take approximately 1 hr.
 
-### Create CJA Data View
+### 2.1 Create CJA Data View
 * Open the Data Views tab.
 * Click Create new data view.
 	* Configure the data view (use the Connection created previously)
@@ -91,21 +91,21 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 
 
 
-### Create CJA Project
+### 2.2 Create CJA Project
 
 * Go to Workspaces and click on Create New.
 * Start from a blank project.
 * Please download the CJA project dashboard [here]() and try to recreate the same dashboard (using your own Data View).
 * Experiment with new visualizations and feel free to explore the data in different direction.
 
-### Analyze Data and Publish Segment to RT-CDP
+### 2.3.1 Analyze Data and Publish Segment to RT-CDP
 
 * Try to find some interesting nugget of insight.
 * When you've found it, right-click on one of the table rows and select Create Audience From Selection
 * Review the the Audience Creation modal and name your new Audience.
 * Notice the right column with audience estimates and click Publish.
 
-### Use RT-CDP To Activate The Audience
+### 2.3.2 Use RT-CDP To Activate The Audience
 
 * Move to RT-CDP platform.adobe.com
 * Navigate in the left menu to: Segments and tab Browse
