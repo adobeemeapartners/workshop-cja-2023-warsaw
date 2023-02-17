@@ -21,9 +21,9 @@ Look under the hood of how Customer Journey Analytics helps customers connect ev
 
 Technical Seller, Consultants, Business Analysts, Data Analysts, Data Architects.
 
-## Workshop Prerequisites
-* Access to Adobe Experience Platform (sandbox)
-* Admin to Adobe Customer Journey Analytics (sandbox)
+## Requirements
+* Access to Adobe Experience Platform (Part 1)
+* Access to  Customer Journey Analytics (Part 2)
 
 ## Tutorial
 
