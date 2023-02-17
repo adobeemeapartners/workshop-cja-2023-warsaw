@@ -10,7 +10,7 @@ Look under the hood of how Customer Journey Analytics helps customers connect ev
 
 ## Agenda
 
-- CJA Jumpstart: How it works
+- CJA Jumpstart: How it works (Intro)
 - CJA Sandbox Quick Setup: Data Collection (Demo)
 - Coffee Break
 - Analysis Workspace: Omni-channel Interactive Query (Hands-on)
