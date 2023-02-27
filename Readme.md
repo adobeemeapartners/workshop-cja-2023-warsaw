@@ -36,7 +36,7 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 * Check new schemas and datasets created in the sandbox.
 
 ### 1.2.1 Generate/Download Sample Data Files
-* Download sample data here: [link]().
+* Download sample data here: [Sample Files Folder](/sample-files/).
 * Open the files in text editor and review what data it contains.
 
 ### 1.2.2 Upload Sample Data to AEP Data Lake
@@ -68,6 +68,7 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 * Open the Data Views tab.
 * Click Create new data view.
 	* Configure the data view (use the Connection created previously)
+	* Name the Data View like this: `yourname - CJA Workshop DV (yyyymmdd)`
 	* Add the following dimensions and metrics:
 		* Metrics
 			* Page Views (schema path: web.webPageDetails.pageViews.value)
@@ -95,7 +96,7 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 
 * Go to Workspaces and click on Create New.
 * Start from a blank project.
-* Please download the CJA project dashboard [here]() and try to recreate the same dashboard (using your own Data View).
+* Please download the CJA project dashboard [here](/dashboard/CJA-Workshop-Warsaw-Project%20(20230201).pdf) and try to re-create the same dashboard (using your own Data View).
 * Experiment with new visualizations and feel free to explore the data in different direction.
 
 ### 2.3.1 Analyze Data and Publish Segment to RT-CDP
@@ -126,6 +127,6 @@ We will be more than happy to hear about your experience today.
 
 Any suggestions how to imporve this series are highly valuable to us and we value your feedback hugely. 
 
-Link: [https://forms.office.com/]()
+Link: [https://forms.office.com/r/T6rV8rNK6d](https://forms.office.com/r/T6rV8rNK6d)
 
 Thank you for your time and we wish you the best success with Adobe.
