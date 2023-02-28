@@ -16,6 +16,9 @@ Look under the hood of how Customer Journey Analytics helps customers connect ev
 - Analysis Workspace: Omni-channel Interactive Query (Hands-on)
 - Q&A
 
+## Deck
+
+You can download the full deck from this repository (please note it is password protected - password will be shared in the workshop).
 
 ## Audience
 
