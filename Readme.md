@@ -44,7 +44,7 @@ NOTE: If you're part of in-person workshop you can skip to section Create CJA Co
 
 ### 1.2.2 Upload Sample Data to AEP Data Lake
 * Go to https://experience.adobe.com/#/@aeppartner1/sname:prod/platform/dataset/browse to see your datasets.
-* Open the following datasets and drop the sample data (*.csv) to the Add Data section on the right-hand side panel:
+* Open the following datasets and drop the sample data (*.json) to the Add Data section on the right-hand side panel:
 	* Demo System - Event Dataset for Website (Global v1.1)
 	* Demo System - Event Dataset for Mobile App (Global v1.1)
 	* Demo System - Event Dataset for Call Center (Global v1.1)
